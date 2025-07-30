@@ -158,7 +158,7 @@ public class Personal extends javax.swing.JFrame {
         txtAddress.setPreferredSize(new java.awt.Dimension(64, 32));
         txtAddress.setSize(new java.awt.Dimension(78, 40));
 
-        tbPersonal.setFont(new java.awt.Font("Hiragino Mincho ProN", 0, 10)); // NOI18N
+        tbPersonal.setFont(new java.awt.Font("Hiragino Mincho ProN", 0, 12)); // NOI18N
         tbPersonal.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
@@ -169,6 +169,7 @@ public class Personal extends javax.swing.JFrame {
         ));
         tbPersonal.setAlignmentX(1.0F);
         tbPersonal.setAlignmentY(1.0F);
+        tbPersonal.setRowHeight(30);
         jScrollPane1.setViewportView(tbPersonal);
 
         btnAdd.setBackground(new java.awt.Color(255, 51, 51));
